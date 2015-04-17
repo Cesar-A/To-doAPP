@@ -1,5 +1,5 @@
 <?php
-$mysqli =new mysqli('localhost', 'root', 'root', 'taasks');
+$mysqli =new mysqli('localhost', 'root', 'root', 'todo');
 if($mysqli->connect_error){
 	die('Connect Error ('. $mysqli->connect_erno .')'
 		.$mysqli->connect_error);
